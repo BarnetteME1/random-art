@@ -18,7 +18,7 @@ math_asinh = ["math.asinh(", "math.atanh(", "math.acosh("]
 
 def sven():
     z = "lambda x, y:" + random.choice(math_sin) + random.choice(pi_e) + random.choice(math_op) + random.choice(math_sin) + random.choice(pi_e) + random.choice(math_op) + random.choice(math_sin) + random.choice(pi_e) + random.choice(math_op) + random.choice(math_sin) + random.choice(pi_e) + random.choice(math_op) + random.choice(math_sin) + random.choice(pi_e) + random.choice(math_op) + random.choice(x_y) + ")" + random.choice(math_op) + random.choice(x_y) + "))" + random.choice(math_op) + random.choice(math_sin) + random.choice(pi_e) + random.choice(math_op) + random.choice(x_y) + ")))"
-    y = "lambda x, y: abs(" + random.choice(math_sin) + random.choice(num_list) + random.choice(math_op) + random.choice(math_sin) + random.choice(x_y) + random.choice(math_op) + random.choice(pi_e) + ")" + random.choice(math_op) + random.choice(math_sin) + random.choice(pi_e) + random.choice(math_op) + random.choice(math_sin) + random.choice(num_list) + random.choice(math_op) + random.choice(x_y) + "))))"
+    y = "lambda x, y: abs(" + random.choice(math_sin) + random.choice(pi_e) + random.choice(math_op) + random.choice(math_sin) + random.choice(pi_e) + random.choice(math_op) + random.choice(math_sin) + random.choice(pi_e) + random.choice(math_op) + random.choice(x_y) + ")" + random.choice(math_op) + random.choice(math_sin) + random.choice(x_y) + random.choice(pi_e) + ")" + random.choice(math_op) + random.choice(math_sin) + random.choice(num_list) + random.choice(math_op) + random.choice(x_y) + "))))"
     return eval(random.choice([y, z]))
 
 def ramona():
