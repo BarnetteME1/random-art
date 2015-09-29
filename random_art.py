@@ -13,7 +13,7 @@ math_op = ["+", "-", "*"]
 x_y = ["x", "y"]
 pi_e = ["math.pi", "math.e"]
 def sven():
-    z = math.tan((x**2 + y**2)*randint())
+    z = "lambda x, y:" + random.choice(math_sin) + random.choice(pi_e) + random.choice(math_op) + random.choice(math_sin) + random.choice(pi_e) + random.choice(math_op) + random.choice(math_sin) + random.choice(pi_e) + random.choice(math_op) + random.choice(math_sin) + random.choice(pi_e) + random.choice(math_op) + random.choice(math_sin) + random.choice(pi_e) + random.choice(math_op) + random.choice(x_y) + ")" + random.choice(math_op) + random.choice(x_y) + "))" + random.choice(math_op) + random.choice(math_sin) + random.choice(pi_e) + random.choice(math_op) + random.choice(x_y) + ")))"
     return eval(z)
 
 def ramona():
