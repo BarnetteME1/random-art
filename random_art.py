@@ -1,5 +1,6 @@
 import random
 import math
+import cmath
 
 # Your job is to create better version of create_expression and
 # run_expression to create random art.
@@ -12,9 +13,13 @@ math_sin = ["math.cos(", "math.sin(", "math.tan("]
 math_op = ["+", "-", "*"]
 x_y = ["x", "y"]
 pi_e = ["math.pi", "math.e"]
+math_sinh = ["math.sinh(", "math.tanh(", "math.cosh("]
+math_asinh = ["math.asinh(", "math.atanh(", "math.acosh("]
+
 def sven():
     z = "lambda x, y:" + random.choice(math_sin) + random.choice(pi_e) + random.choice(math_op) + random.choice(math_sin) + random.choice(pi_e) + random.choice(math_op) + random.choice(math_sin) + random.choice(pi_e) + random.choice(math_op) + random.choice(math_sin) + random.choice(pi_e) + random.choice(math_op) + random.choice(math_sin) + random.choice(pi_e) + random.choice(math_op) + random.choice(x_y) + ")" + random.choice(math_op) + random.choice(x_y) + "))" + random.choice(math_op) + random.choice(math_sin) + random.choice(pi_e) + random.choice(math_op) + random.choice(x_y) + ")))"
-    return eval(z)
+    y = "lambda x, y: abs(" + random.choice(math_sin) + random.choice(num_list) + random.choice(math_op) + random.choice(math_sin) + random.choice(x_y) + random.choice(math_op) + random.choice(pi_e) + ")" + random.choice(math_op) + random.choice(math_sin) + random.choice(pi_e) + random.choice(math_op) + random.choice(math_sin) + random.choice(num_list) + random.choice(math_op) + random.choice(x_y) + "))))"
+    return eval(random.choice([y, z]))
 
 def ramona():
     w = "lambda x, y: abs(" + random.choice(math_sin) + random.choice(x_y) + random.choice(math_op) + random.choice(num_list) + ")" + random.choice(math_op) + "abs(" + random.choice(x_y) + ")" + "** abs(" + random.choice(x_y) + "))"
